@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'src/pages/buttons/buttons.dart';
+import 'src/pages/forms/forms.dart';
 import 'src/pages/layouts/layouts.dart';
 
 void main() {
@@ -16,7 +17,8 @@ class MainApp extends StatelessWidget {
       title: 'Test',
       debugShowCheckedModeBanner: false,
       // home: Buttons(),
-      home: Layouts(),
+      // home: Layouts(),
+      home: Forms(),
     );
   }
 }
