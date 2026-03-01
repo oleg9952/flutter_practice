@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'src/pages/buttons/buttons.dart';
-import 'src/pages/forms/forms.dart';
-import 'src/pages/layouts/layouts.dart';
+import 'src/router/routes.dart';
 
 void main() {
   runApp(const MainApp());
@@ -13,12 +11,10 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      title: 'Test',
+    return MaterialApp.router(
+      title: 'Practice',
       debugShowCheckedModeBanner: false,
-      // home: Buttons(),
-      // home: Layouts(),
-      home: Forms(),
+      routerConfig: appRouter,
     );
   }
 }

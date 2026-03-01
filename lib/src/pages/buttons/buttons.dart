@@ -1,15 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_practice/src/common/section_head.dart';
-import 'package:flutter_practice/src/pages/buttons/custom/pill_button.dart';
 
-class Buttons extends StatefulWidget {
-  const Buttons({super.key});
+import '../../common/widgets/section_head.dart';
+import 'custom/pill_button.dart';
+
+class ButtonPage extends StatefulWidget {
+  const ButtonPage({super.key});
 
   @override
-  State<Buttons> createState() => _ButtonsState();
+  State<ButtonPage> createState() => _ButtonPageState();
 }
 
-class _ButtonsState extends State<Buttons> {
+class _ButtonPageState extends State<ButtonPage> {
   bool isActive = true;
 
   void handleActiveToggle() {
