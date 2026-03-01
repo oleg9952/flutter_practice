@@ -2,10 +2,12 @@ import 'package:flutter/material.dart';
 
 import '../../../common/constants.dart';
 import '../../../common/models.dart';
-import 'web_layout.dart';
+import 'layout_1.dart';
+import 'layout_2.dart';
 
 final List<ExampleItemModel> layoutList = [
-  ExampleItemModel(title: 'Web Layout', builder: () => WebLayout()),
+  ExampleItemModel(title: 'Web Layout', builder: () => Layout1()),
+  ExampleItemModel(title: 'Practice Layout', builder: () => Layout2()),
 ];
 
 class LayoutExample extends StatelessWidget {

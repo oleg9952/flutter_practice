@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 const headerHeight = 100.0;
 const footerHeight = 50.0;
 
-class WebLayout extends StatelessWidget {
-  const WebLayout({super.key});
+class Layout1 extends StatelessWidget {
+  const Layout1({super.key});
 
   @override
   Widget build(BuildContext context) {
